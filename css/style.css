@@ -370,6 +370,7 @@ body.lb-disable-scrolling {
   align-self: center;
   border-radius: 5px;
   box-shadow: 3px 5px 5px #C7C7C7;
+  overflow-y: auto;
 }
 
 .switch {
