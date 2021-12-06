@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Video</title>
+  </head>
+  <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+      
+    <header>
+      <h1>Video</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="hardwares.html">Hardwares</a></li>
+        <li><a href="news.html">News</a></li>
+        <li>
+          <a href=# class="nav-more current" data-open="false" onclick="openTag()">More</a>
+          <ul class="nav-more-ul">
+            <li><a href="video.html">Video</a></li>
+            <li><a href="form.html">Contact me</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  <main id="main" class="video-container">
+    <h2>First Look at Nintendo Switch</h2>
+    <div class="video-block">
+      <video width="100%" height="auto" id="switch-video" class="video" autoplay>
+        <source src="videos/first_look_at_nintendo_switch.mp4" type="video/mp4">
+        <track src="videos/first_look_at_nintendo_switch-en.vtt" kind="captions" srclang="en" label="english_captions">
+      Your browser does not support the video tag.
+      </video>
+  
+      <div class="video-left"></div>
+      <div class="video-right"></div>
+  
+      <button class="options" id = "play">Play</button>
+      <button class="options" id = "pause">Pause</button>
+      <button class="options" id = "forward">Forward</button>
+      <button class="options" id = "backward">Backward</button>
+    </div>
+
+  </main>
+    <footer>
+      <p>University of Michigan School of Information <br/>
+        &copy; Ruge Xu - SI539 Web Design 2021</p>
+    </footer>
+    <script src="js/video.js"></script>
+    <script src="js/switch.js"></script>
+    
+  </body>
+</html>
